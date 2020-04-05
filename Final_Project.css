@@ -260,3 +260,18 @@
 	font-family: 'Comic Neue', cursive;
 	
 }
+
+.graph7 {
+	margin-top:5%;
+	background-image: url('images/strip.png');
+	background-repeat: no-repeat; 
+	background-size: 1% 100% ;
+	background-position: 2% 0%;
+	margin-left: 100px;
+	margin-right:100px;
+
+}
+
+.graph7 .box{
+	display: flex;
+}
