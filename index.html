@@ -13,7 +13,13 @@
 		<!--stylesheet-->
 
 		<style type="text/css">
-			.Header img
+
+			body{
+				margin: 0px;
+				padding:0px;
+			}
+
+			#Header img
 			{
 
 				width: 100%;
@@ -79,8 +85,10 @@
 				margin-top: 200px;
 				margin-left: 100px;
 				margin-right:100px;
-				/*border: 2px solid;
-				border-radius: 40px;*/
+				background-color: #f2f3f4;
+				/*border: 2px solid;*/
+				border-radius: 40px;
+				padding: 2px 2px;
 				
 				/*margin: 200px 100px 0px 100px;*/
 				background-image: url('images/strip.png');
@@ -90,10 +98,41 @@
 			}
 
 
+			/*section A*/
+
+			#history{
+				margin-top: 300px;
+				font-size:3em;
+				text-align: center;
+				font-family: 'Comic Neue', cursive;
+			}
+
+			.box3{
+					background-image: url('images/strip.png');
+				background-repeat: no-repeat; 
+				background-size: 1% 100% ;
+				background-position: 2% 0%;
+				margin-left: 100px;
+				margin-right:100px;
+
+				background-color: #f2f3f4;
+				border-radius: 40px;
+				padding: 2px 2px;
+			}
+
+			.content{
+				margin-left:5%;
+				font-size: 1.4em;
+				font-family: 'Comic Neue', cursive;
+			}
+
 			/*Section1*/
 
 			#The_People_and_Diversity{
-				margin-top: 300px;
+				border-top: 2px solid;
+				margin-right: 8%;
+				margin-left: 8%;
+				margin-top: 100px;
 				font-size:3em;
 				text-align: center;
 				font-family: 'Comic Neue', cursive;
@@ -108,6 +147,10 @@
 				background-position: 2% 0%;
 				margin-left: 100px;
 				margin-right:100px;
+
+				background-color: #f2f3f4;
+				border-radius: 40px;
+				padding: 2px 2px;
 			}
 
 			.graph1 .box{
@@ -142,6 +185,10 @@
 				background-position: 2% 0%;
 				margin-left: 100px;
 				margin-right:100px;
+
+				background-color: #f2f3f4;
+				border-radius: 40px;
+				padding: 2px 2px;
 			}
 
 			.graph2 .graph{
@@ -170,6 +217,10 @@
 				background-position: 2% 0%;
 				margin-left: 100px;
 				margin-right:100px;
+
+				background-color: #f2f3f4;
+				border-radius: 40px;
+				padding: 2px 2px;
 			}
 
 			.graph3 .box1{
@@ -181,6 +232,7 @@
 				/*border: 2px solid;*/
 				border-radius: 15px;
 				flex:0 0 50%;
+				border: 1px solid;
 			}
 
 			.graph3 .box1 .para{
@@ -197,16 +249,18 @@
 				position: relative;
 				
 				margin-left: 5%;
-				margin-right:-5%;
+				margin-right:-2%;
 			}
 
 			.graph3 .box2 .graph{
 				/*border: 2px solid;*/
 				border-radius: 15px;
 				flex: 0 0 50%;
+				border: 1px solid;
 			}
 
 			.graph3 .box2 .para{
+				padding-left: 3px;
 				font-size: 1.4em;
 				font-family: 'Comic Neue', cursive;
 			}
@@ -232,6 +286,10 @@
 				background-position: 2% 0%;
 				margin-left: 100px;
 				margin-right:100px;
+
+				background-color: #f2f3f4;
+				border-radius: 40px;
+				padding: 2px 2px;
 			}
 
 			.graph5 .graph{
@@ -239,6 +297,7 @@
 				padding: 2px 2px;
 				/*border: 2px solid;*/
 				border-radius: 15px;
+				border: 1px solid;
 			}
 
 			.graph5 .para{
@@ -260,12 +319,17 @@
 				margin-left: 100px;
 				margin-right:100px;
 
+				background-color: #f2f3f4;
+				border-radius: 40px;
+				padding: 2px 2px;
+
 			}
 
 			.graph6 .graph{
 				margin: 0% 5% 0% 5%;
 				padding: 2px 2px;
 				border-radius: 15px;
+				border: 1px solid;
 			}
 
 			.graph6 .para{
@@ -274,34 +338,6 @@
 				font-size: 1.4em;
 				font-family: 'Comic Neue', cursive;
 				
-			}
-
-
-			.graph7 {
-				margin-top:5%;
-				background-image: url('images/strip.png');
-				background-repeat: no-repeat; 
-				background-size: 1% 100% ;
-				background-position: 2% 0%;
-				margin-left: 100px;
-				margin-right:100px;
-
-			}
-
-			.graph7 .box{
-				display: flex;
-				justify-content: center;
-			}
-
-			.graph7 .graph{
-				border-radius: 15px;
-				flex: 0 0 70%;
-				}
-
-			.graph7 .para{
-				margin-left:5%;
-				font-size: 1.4em;
-				font-family: 'Comic Neue', cursive;
 			}
 
 			#Education{
@@ -314,6 +350,44 @@
 				font-family: 'Comic Neue', cursive;
 			}
 
+
+			.graph7 {
+				margin-top:5%;
+				background-image: url('images/strip.png');
+				background-repeat: no-repeat; 
+				background-size: 1% 100% ;
+				background-position: 2% 0%;
+				margin-left: 100px;
+				margin-right:100px;
+
+				background-color: #f2f3f4;
+				border-radius: 40px;
+				padding: 2px 2px;
+
+			}
+
+			.graph7 .box{
+				display: flex;
+				justify-content: flex-start;
+			}
+			
+			.graph7 .para{
+				margin-left:5%;
+				font-size: 1.4em;
+				font-family: 'Comic Neue', cursive;
+				border:1px solid;
+				width:25%;
+			}
+
+			.graph7 .graph{
+				border: 1px solid;
+				border-radius: 15px;
+				flex: 0 0 70%;
+				width: 290%;
+				}
+
+		
+		
 			.graph8 {
 				margin-top:5%;
 				background-image: url('images/strip.png');
@@ -323,6 +397,10 @@
 				margin-left: 100px;
 				margin-right:100px;
 
+				background-color: #f2f3f4;
+				border-radius: 40px;
+				padding: 2px 2px;
+
 			}
 
 			.graph8 .box{
@@ -331,12 +409,26 @@
 			}
 
 			.graph8 .graph{
+				border: 1px solid;
 				border-radius: 15px;
 				flex: 0 0 70%;
 				}
 
 			.graph8 .para{
 				margin-left:5%;
+				font-size: 1.4em;
+				font-family: 'Comic Neue', cursive;
+			}
+
+			.footer{
+				margin-top: 150px;
+				margin-bottom:0px;
+				margin-left: 8%;
+				margin-right: 8%;
+				border-radius: 45px;
+				background-color: #f2f3f4;
+				text-align: center;
+				font-size: 1em;
 				font-size: 1.4em;
 				font-family: 'Comic Neue', cursive;
 			}
@@ -349,11 +441,11 @@
 
 		<!-- Header-->
 
-		<div class = 'Header'>
+		<div id = 'Header'>
 			<img src='images/bottom.png' height='30%'>
 		<div class = 'Heading'>
 			<h1>INDIA - A GLIMPSE</h1>
-			<p class = 'p1'>A country, where on the streets everyone seems to be in a hurry but no one is ever on time.</p>
+			<p class = 'p1'>Wherever you go becomes a part of you</p>
 			<p>by Devanathan Sabapathy</p>
 			<p>Published on: April 3 2020</p>
 		</div>
@@ -363,8 +455,8 @@
 		</div>	
 		<div class= 'list'>
 			<p class = 'p1'>Few categories that we dive into</p>
-			<p class = 'p3'>THE HISTORY.<br>
-				THE HERITAGE AND CULTURE<br>
+			<p class ='p3'>
+			<a href=#history>THE HISTORY.</a><br>
 			<a href=#The_People_and_Diversity>THE PEOPLE AND DIVERSITY</a><br>
 			<a href=#Growth>GROWTH</a><br>
 			<a href=#Education>EDUCATION</a>
@@ -372,6 +464,28 @@
 			<p class='p2'>Let take a dive and get to know a bit of each and every part with a bit of visualization.</p>
 		</div>
 
+		<!--section A-->
+
+		<div id='history'>
+			<p>HISTORY</p>
+		</div>
+		
+		<div class ='box3'>
+			<div class='content'>
+				<p>The name 'India' is derived from the River Indus, the valleys around which were the home of the early settlers. The Aryan worshippers referred to the river Indus as the Sindhu.<br><br>
+				The Persian invaders converted it into Hindu. The name 'Hindustan' combines Sindhu and Hindu and thus refers to the land of the Hindus.<br><br>
+				Chess was invented in India.<br><br>
+				The 'Place Value System' and the 'Decimal System' were developed in India in 100 B.C.<br><br>
+				India is the largest democracy in the world, the 7th largest Country in the world, and one of the most ancient civilizations.<br><br>
+				The world's highest cricket ground is in Chail, Himachal Pradesh. Built in 1893 after leveling a hilltop, this cricket pitch is 2444 meters above sea level.<br><br>
+				Ayurveda is the earliest school of medicine known to mankind. The Father of Medicine, Charaka, consolidated Ayurveda 2500 years ago.<br><br>
+				India was one of the richest countries till the time of British rule in the early 17th Century. Christopher Columbus, attracted by India's wealth, had come looking for a sea route to India when he discovered America by mistake.<br><br>
+				Until 1896, India was the only source of diamonds in the world
+				<em>(Source: Gemological Institute of America)</em><br><br>
+				Yoga has its origins in India and has existed for over 5,000 years.
+				</p>	
+			</div>	
+		</div>	
 		<!--section 1-->
 
 		<div id='The_People_and_Diversity'>
@@ -384,9 +498,12 @@
 			<div class='box'>
 				<div class='para'>
 					<p><h4>Visitors from different countries across years</h4></p>
-					<p class='pbox1'>Here we can see the distribution of people from different countries entering India across different years.<br>
-					India is a diverse country.<br>
-					It is a country which accepts diversity as a part of its constitution
+					<p class='pbox1'>Here we can see the distribution of people from different countries entering India across different years.<br><br>
+					From the pie charts we can see,Western Europe , North America and south asia are dominating the foreigner population in India.<br><br>
+					This trend can be seen rising thorugh the years from 2001 to 2015 for which the data is reveled.<br><br>
+					<em>---<br>
+					Hovering over the pie chart will reveal more interesting facts about each pie.<br>
+					Play with the years to see the trend<br>---</em>
 					</p>
 				</div>
 				<div class='graph'>
@@ -400,7 +517,10 @@
 		<div class='graph2'>
 			<div class='para'>
 				<p><h4>Sex distribution</h4>
-				We can see that the there is always a constant gap between male and female population and it only keeps increasing through the years</p>
+				We can see that the there is always a constant gap between male and female population and it only keeps increasing through the years<br><br>
+				<em>---<br>
+					Hovering over the line chart will reveal more interesting facts about the chart<br>---</em>
+			</p>
 			</div>
 			<div class='graph'>
 				<div class="flourish-embed flourish-chart" data-src="visualisation/1721640" data-url="https://flo.uri.sh/visualisation/1721640/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
@@ -415,7 +535,12 @@
 			<div class='para'>
 				<p><h4>Rural Population</h4>
 					<br>
-					Here we can see the rural population growth is getting flat thorugh the years.
+					Here we can see the rural population growth trend.<br>
+					There is a decrease in the growth as the year passes.<br>
+					There is very strong reason behind this decline which is very evident as people move to metropolitan cities in search of better living conditions.<br><br>
+					<em>---<br>
+					Hovering over the graph reveals more information<br>---</em>
+
 
 				</p>	
 			</div>
@@ -431,7 +556,12 @@
 			<div class="para">
 				<p><h4>Urban Population</h4>
 				Here we can see a increasing trend in the population
-				and the years pass by.</p>
+				and the years pass by.<br><br>
+
+				Here again there is clear evidence which is already explained above <br><br>
+				<em>---<br>
+				Hovering over the graph reveals more information<br>---</em>
+			</p>
 			</div>
 		</div>
 		</div>
@@ -447,7 +577,10 @@
 		<div class='graph5'>
 			<div class="para">
 				<p><h4>GDP</h4>
-				Here we can see the distribution of GDP in different sectors</p>
+				Here we can see the distribution of GDP in different sectors<br><br>
+				<em>---<br>
+					A dynamic graph explains more than just words<br>---</em>
+			</p>
 			</div>
 			<div class= 'graph'>
 				<div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/1721856" data-url="https://flo.uri.sh/visualisation/1721856/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
@@ -459,7 +592,9 @@
 		<div class="graph6">
 			<div class = 'para'>
 				<p><h4>Start Up</h4>
-				The start ups that bloomed in India with the size of the bubble indicating the total value of the company</p>
+				The start ups that bloomed in India.<br> The size of the bubble indicates the total value of the company<br><br>
+				<em>---<br>
+					Hover over to find the worth of each company<br>---</p>
 			</div>
 			<div class='graph'> 
 				<div class="flourish-embed flourish-hierarchy" data-src="visualisation/1722370" data-url="https://flo.uri.sh/visualisation/1722370/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
@@ -478,8 +613,13 @@
 			<div class="box">
 				<div class='para'>
 					<p><h4>Computer Availability</h4>
-					Increasing order of availability of computers in India with state level granularity</p>
+					Increasing order of availability of<br> computers in India with state level granularity<br>
+					The values indicate the pecentage and the year<br>
+					<em>---<br>
+						Hover over the map to find out more<br>---
+					</p>
 				</div>
+
 				<div class='graph'>
 					<div class="flourish-embed flourish-hierarchy" data-src="visualisation/1810429" data-url="https://flo.uri.sh/visualisation/1810429/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 				</div>
@@ -492,7 +632,10 @@
 			<div class ='box'>
 				<div class='para'>
 					<p><h4>School drop out</h4>
-					We can see a decreasing trend in the drop out which is a good sign</p>
+					This is a unique chart which shows the drop out percentage across the selected years<br><br>
+					We can see a decreasing trend in the drop out which is a good sign for indian literacy<br><br>
+					<em>---<br>
+						Hover over the graph to learn more.<br>---</em></p>
 				</div>
 
 				<div class='graph'>
@@ -500,5 +643,8 @@
 				</div>
 			</div>
 		</div>
+
+		<div class = 'footer'>
+			<p>DESIGN - HTML & CSS : Devanathan |  GRAPH - Flourish™ | My first webpage </p> 
 	</body>
 </html>
